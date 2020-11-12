@@ -6,7 +6,7 @@ import Technologies from "./Technologies";
 const App = () => {
   return (
     <div>
-      <Headear/>
+      <Header/>
         <Technologies/>
   </div>
      
@@ -16,4 +16,3 @@ const App = () => {
 
 export default App;
 
-gdg
