@@ -1,0 +1,28 @@
+.nav {
+   grid-area: n;
+   background-color: rgb(252, 252, 252);
+}
+
+.items {
+   padding: 0;
+   list-style: none;
+}
+
+.items a:before {
+   content: "\2014";
+   margin-right: 14px;
+}
+
+.items a {
+   text-decoration: none;
+   outline: none;
+   display: block;
+   padding: 6px 0;
+   letter-spacing: 1px;
+   font-weight: 300;
+   color: rgb(53, 49, 49);
+   transition: 0.3s linear;
+}
+.items a:hover {
+   color: #71fff3;
+}
