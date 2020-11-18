@@ -9,8 +9,9 @@
 }
 
 .items a:before {
-   content: "\2014";
+   content: "\2010";
    margin-right: 14px;
+   
 }
 
 .items a {
@@ -24,5 +25,5 @@
    transition: 0.3s linear;
 }
 .items a:hover {
-   color: #71fff3;
+   color:rgba(66, 198, 255, 0.8);
 }

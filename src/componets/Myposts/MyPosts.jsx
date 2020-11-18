@@ -14,7 +14,8 @@ const MyPosts = () => {
          <div className={s.posts}>
             <Post />
             <Post />
-
+            <Post />
+            <Post />
 
 
          </div>

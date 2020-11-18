@@ -1,8 +1,8 @@
 .content {
    grid-area: c;
-   background-color: crimson;
+   background-color: #8224e3 ;
 }
 
-.content img {
-   width: 500px;
+.imgStyle {
+   width: 800px;
 }
