@@ -8,7 +8,7 @@ const Post = (props) => {
    return (
       <div className={s.item}>
          <img src='https://cdn.freelance.ru/images/att/1324133_900_600.png' />
-         {props.massage}
+         {props.message}
 
 
          <div>
