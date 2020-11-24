@@ -18,27 +18,55 @@ const Massage = (props) => {
 
 
 const Dialogs = (props) => {
-   return (
 
+   let dialogsData = [
+      { id: 1, name: 'Vladislav' },
+      { id: 2, name: 'Igor' },
+      { id: 3, name: 'Irene' },
+      { id: 4, name: 'Margarita' },
+      { id: 5, name: 'Julia' },
+      { id: 6, name: 'Natalia' },
+      { id: 7, name: 'Gennady' },
+      { id: 8, name: 'Nikolay' },
+      { id: 9, name: 'Alexander' }
+   ]
+
+   let messagesData = [
+      { id: 1, message: 'Hey' },
+      { id: 2, message: 'Hi my love, How are you' },
+      { id: 3, message: 'I\'m good ! What about you?' },
+      { id: 4, message: 'I\'m great too.' },
+      { id: 5, message: 'Where are you been?' }
+
+   ]
+
+
+
+
+   return (
       <div className={s.dialogs}>
          <div className={s.dialogItems} >
 
-            <DialogItem name="Vladislav" id="1" />
-            <DialogItem name="Igor" id="2" />
-            <DialogItem name="Irene" id="3" />
-            <DialogItem name="Margarita" id="4" /> <DialogItem name="Julia" id="5" />
-            <DialogItem name="Natalia" id="6" />
-            <DialogItem name="Gennady" id="7" />
-            <DialogItem name="Nikolay" id="8" />
-            <DialogItem name="Alexander" id="9" />
+            <DialogItem name={dialogsData[0].name} id={dialogsData[0].id} />
+            <DialogItem name={dialogsData[1].name} id={dialogsData[1].id} />
+
          </div>
 
          <div className={s.messages}>
+
+            <DialogItem name={messagesData[0].message} id={messagesData[0].id} />
+            <DialogItem name={messagesData[1].message} id={messagesData[1].id} />
+            <DialogItem name={messagesData[2].message} id={messagesData[2].id} />
+            <DialogItem name={messagesData[3].message} id={messagesData[3].id} />
+            <DialogItem name={messagesData[4].message} id={messagesData[4].id} />
+
+
+            {/*             
             <Massage message="Hey" />
             <Massage message="Hi my love, How are you" />
             <Massage message="I'm good ! What about you?" />
             <Massage message="I'm great too." />
-            <Massage message="Where are you been?" />
+            <Massage message="Where are you been?" /> */}
          </div>
       </div >
 
