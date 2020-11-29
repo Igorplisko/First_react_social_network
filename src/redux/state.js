@@ -10,7 +10,7 @@ let state = {
          { id: 3, message: 'I love you ! ', likesCount: 25 }
 
       ],
-      newPostText: 'Igor'
+      newPostText: 'Write what you wish'
 
    },
    dialogsPage:
@@ -49,6 +49,7 @@ export let addPost = () => {
 
    };
    state.profilePage.posts.push(newPost);
+   state.profilePage.newPostText = '';
    rerenderEntireTree(state);
 }
 

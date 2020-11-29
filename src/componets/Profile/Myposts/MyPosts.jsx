@@ -11,7 +11,7 @@ const MyPosts = (props) => {
 
    let addPost = () => {
       props.addPost()
-      props.updateNewPostText('');
+
    }
 
    let onPostChange = () => {
@@ -27,7 +27,7 @@ const MyPosts = (props) => {
                <textarea onChange={onPostChange}
                   ref={newPostElement}
                   value={props.newPostText} />
-               {/* //TODO add this code   "placeholder="Write what you wish" */}
+
             </div>
             <div />
             {/* <textarea></textarea> */}
