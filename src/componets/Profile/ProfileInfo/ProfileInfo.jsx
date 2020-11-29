@@ -11,7 +11,7 @@ const  ProfileInfo  = () => {
 
       <div className={s.descriptionBlock}>
          Ava +description
-         
+         {/* Chenge this code  */}
       </div>
    </div> )
 

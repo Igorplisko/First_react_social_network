@@ -1,13 +1,14 @@
 import { rerenderEntireTree } from "../render";
 
-//!DATA
+//!DATA 
+
 let state = {
    profilePage: {
       posts: [
          { id: 1, message: 'Hey', likesCount: 25 },
          { id: 2, message: 'Hey, how are you doing?', likesCount: 7 },
          { id: 3, message: 'I love you ! ', likesCount: 25 },
-
+         { id: 3, message: 'I love you ! ', likesCount: 25 }
       ]
 
    },
