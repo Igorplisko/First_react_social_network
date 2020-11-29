@@ -2,7 +2,7 @@ let rerenderEntireTree = () => {
    console.log('state');
 }
 
-//!!DATA!! 
+//!!!DATA!!! 
 //main data
 let state = {
    profilePage: {
