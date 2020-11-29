@@ -1,7 +1,7 @@
 import { rerenderEntireTree } from "../render";
 
 //!DATA 
-//main data
+
 let state = {
    profilePage: {
       posts: [
