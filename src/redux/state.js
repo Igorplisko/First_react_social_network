@@ -43,7 +43,6 @@ let store = {
       console.log('state');
    },
    addPost() {
-      debugger;
       let newPost = {
          id: 5,
          message: this._state.profilePage.newPostText,
