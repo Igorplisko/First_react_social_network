@@ -1,23 +1,11 @@
 import React from 'react';
-import { addPostActionCreater, updateNewPostTextActionCreater } from '../../../redux/state';
+import { addPostActionCreator, updateNewPostTextActionCreator } from '../../../redux/state';
 import s from "./MyPosts.module.css";
 import Post from './Post/Post';
 
 
 
 
-
-// let addPostActionCreater = () => {
-//    return {
-//       type: 'ADD-POST'
-//    }
-// }
-
-// let updateNewPostTextActionCreater = (text) => {
-//    return {
-//       type: 'UPDATE-NEW-POST-TEXT', newText: text
-//    }
-// }
 
 
 const MyPosts = (props) => {
@@ -27,14 +15,14 @@ const MyPosts = (props) => {
    let newPostElement = React.createRef()
 
    let addPost = () => {
-      props.dispatch(addPostActionCreater())
+      props.dispatch(addPostActionCreator())
 
    }
 
    let onPostChange = () => {
       let text = newPostElement.current.value;
       // let action = { type: 'UPDATE-NEW-POST-TEXT', newText: text };
-      let action = updateNewPostTextActionCreater(text);
+      let action = updateNewPostTextActionCreator(text);
       props.dispatch(action);
    }
 
@@ -45,11 +33,11 @@ const MyPosts = (props) => {
             <div>
                <textarea onChange={onPostChange}
                   ref={newPostElement}
-                  value={props.newPostText} />
+                  value={props.newPostText}
+                  placeholder='Write what you wish' />
 
             </div>
             <div />
-            {/* <textarea></textarea> */}
             <button onClick={addPost}  >Add post</button>
             <div />
          </div>
