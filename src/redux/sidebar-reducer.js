@@ -8,4 +8,3 @@ const sidebarReducer = (state = initialState, action) => {
 
 export default sidebarReducer
 
-//?chenge tis page
