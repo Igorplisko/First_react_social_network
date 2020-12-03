@@ -50,4 +50,6 @@ export const updateNewMessageBodyCreator = (body) =>
 
 
 
-export default dialogsReducer 
+export default dialogsReducer
+
+//? fix the code and refactor it
