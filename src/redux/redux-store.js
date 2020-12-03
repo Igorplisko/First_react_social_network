@@ -20,3 +20,4 @@ export default store;
 
 //?  combineReducers - эта функция   //объединяеее наши редюсеры
 
+//? fix the code and refactor it
