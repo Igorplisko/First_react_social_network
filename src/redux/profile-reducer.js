@@ -39,4 +39,4 @@ export const updateNewPostTextActionCreator = (text) => ({ type: UPDATE_NEW_POST
 export default profileReducer
 
 
-//? fix the code and refactor it
+
