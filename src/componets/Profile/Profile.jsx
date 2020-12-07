@@ -1,6 +1,6 @@
 import React from 'react';
-import s from './Profile.module.css'
-import MyPosts from './Myposts/MyPosts';
+// import s from './Profile.module.css'
+// import MyPosts from './Myposts/MyPosts';
 import ProfileInfo from './ProfileInfo/ProfileInfo';
 import MyPostsContainer from './Myposts/MyPostsContainer';
 

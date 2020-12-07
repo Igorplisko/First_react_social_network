@@ -1,10 +1,11 @@
 
 import './App.css';
-import Dialogs from './componets/Dialogs/Dialogs';
+// import Dialogs from './componets/Dialogs/Dialogs';
 import Header from './componets/Header/Header';
 import Navbar from './componets/Navbar/Navbar';
 import Profile from './componets/Profile/Profile';
-import { BrowserRouter, Route } from "react-router-dom";
+import { Route } from "react-router-dom";
+import DialogsContainer from './componets/Dialogs/DialogsContainer';
 
 
 const App = (props) => {
@@ -19,7 +20,7 @@ const App = (props) => {
           <Route path="/profile" component={Profile} /> */}
 
         <Route path="/dialogs"
-          render={() => <Dialogs store={props.store} />} />
+          render={() => <DialogsContainer store={props.store} />} />
         <Route path="/profile"
           render={() => <Profile store={props.store} />} />
 
