@@ -17,4 +17,6 @@ const Profile = (props) => {
       </div>)
 }
 
-export default Profile   
+export default Profile
+
+//!check and fix the code!
