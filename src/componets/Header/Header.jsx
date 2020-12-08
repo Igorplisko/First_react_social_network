@@ -8,4 +8,7 @@ const Header = () => {
       </header>)
 }
 
-export default Header 
+export default Header
+
+
+//!check and fix the code!
