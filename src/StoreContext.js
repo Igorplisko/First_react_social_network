@@ -9,3 +9,14 @@ export const Provider = (props) => {
 }
 
 export default StoreContext;
+
+
+
+
+
+
+
+
+
+
+//?React.createContext - Создаёт объект Context. Когда React рендерит компонент, который подписан на этот объект, React получит текущее значение контекста из ближайшего подходящего Provider выше в дереве компонентов.
