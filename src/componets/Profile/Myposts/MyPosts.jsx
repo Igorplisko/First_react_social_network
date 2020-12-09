@@ -22,6 +22,7 @@ const MyPosts = (props) => {
          <h3>My posts</h3>
          <div>
             <div>
+
                <textarea onChange={onPostChange}
                   ref={newPostElement}
                   value={props.newPostText}
@@ -41,4 +42,3 @@ const MyPosts = (props) => {
 export default MyPosts;
 
 
-//!check and fix the code!
