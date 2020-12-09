@@ -11,12 +11,9 @@ const Profile = (props) => {
    return (
       <div >
          <ProfileInfo />
-         <MyPostsContainer
-            store={props.store} />
+         <MyPostsContainer />
 
       </div>)
 }
 
 export default Profile
-
-//!check and fix the code!
