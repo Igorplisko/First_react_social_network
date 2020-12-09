@@ -1,31 +1,33 @@
 import React from 'react';
-import s from './Dialogs.module.css'
-import DialogItem from './DialogItem/DialogItem';
-import Massage from './Message/Message';
 import { sendMessageCreator, updateNewMessageBodyCreator } from '../../redux/dialogs-reducer';
 import Dialogs from './Dialogs';
-import StoreContext from '../../StoreContext';
+import { connect } from 'react-redux';
 
 
-
-const DialogsContainer = (props) => {
-   return <StoreContext.Consumer>
-      {store => {
-         let state = store.getState().dialogsPage;
-
-         let onSendMessageClick = () => {
-            store.dispatch(sendMessageCreator());
-         }
-
-         let onNewMessageChange = (body) => {
-            store.dispatch(updateNewMessageBodyCreator(body));
-         }
-
-         return <Dialogs updateNewMessageBody={onNewMessageChange} sendMessage={onSendMessageClick} dialogsPage={state} />
-
-      }
-      }
-   </StoreContext.Consumer>
-
+let mapStateToProps = (state) => {
+   return {
+      dialogsPage: state.dialogsPage
+   }
 }
+
+let mapDispatchToProps = (dispatch) => {
+   return {
+      updateNewMessageBod: () => {
+         dispatch(sendMessageCreator());
+      },
+      sendMessage: (body) => {
+         dispatch(updateNewMessageBodyCreator(body));
+      }
+   }
+}
+
+const DialogsContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogs);
+
 export default DialogsContainer;
+
+
+
+
+
+//?The  "connect()" - function connects a React component to a Redux store. It does not modify the component class passed to it; instead, it returns a new, connected component class that wraps the component you passed in.
+//?The "mapStateToProps" and "mapDispatchToProps" deals with your Redux store’s state and dispatch, respectively. 
