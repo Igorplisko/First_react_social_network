@@ -25,7 +25,7 @@ const DialogsContainer = connect(mapStateToProps, mapDispatchToProps)(Dialogs);
 
 export default DialogsContainer;
 
-// ?check and change  this code
+
 
 
 
