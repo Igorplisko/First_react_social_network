@@ -50,4 +50,3 @@ const Dialogs = (props) => {
 export default Dialogs;
 
 
-//!check and fix the code!
