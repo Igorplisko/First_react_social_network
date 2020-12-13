@@ -17,9 +17,7 @@ const usersReducer = (state = initialState, action) => {
       case ADD_POST: {
 
       };
-         return {
-            ''
-         };
+         return
    }
 
 }
