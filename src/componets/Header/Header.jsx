@@ -11,4 +11,3 @@ const Header = () => {
 export default Header
 
 
-//!check and fix the code!

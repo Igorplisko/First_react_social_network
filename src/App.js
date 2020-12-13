@@ -5,6 +5,7 @@ import Navbar from './componets/Navbar/Navbar';
 import Profile from './componets/Profile/Profile';
 import { Route } from "react-router-dom";
 import DialogsContainer from './componets/Dialogs/DialogsContainer';
+import Users from './componets/Users/Users';
 
 
 const App = () => {
@@ -18,6 +19,11 @@ const App = () => {
 
         <Route path='/profile'
           render={() => <Profile />} />
+
+
+        <Route path='/users'
+          render={() => <Users />} />
+
       </div>
     </div>
   )
@@ -25,5 +31,3 @@ const App = () => {
 
 export default App;
 
-
-// ?check and change  this code
