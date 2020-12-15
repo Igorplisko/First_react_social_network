@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Header from './componets/Header/Header';
-import Navbar from './componets/Navbar/Navbar';
-import Profile from './componets/Profile/Profile';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import Profile from './components/Profile/Profile';
 import { Route } from "react-router-dom";
-import DialogsContainer from './componets/Dialogs/DialogsContainer';
-import UsersContainer from "./componets/Users/UsersContainer";
+import DialogsContainer from './components/Dialogs/DialogsContainer';
+import UsersContainer from "./components/Users/UsersContainer";
 
 const App = () => {
   return (
