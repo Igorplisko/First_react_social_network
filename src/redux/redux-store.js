@@ -23,3 +23,4 @@ export default store;
 //?  combineReducers - эта функция   //объединяеее наши редюсеры
 
 
+//!  check this code
