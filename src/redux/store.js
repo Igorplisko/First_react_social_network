@@ -82,3 +82,4 @@ export default store;
 //? action - это объект который описывает что именно нужно совершить он имеет тип к примеру { type: 'ADD-POST'}
 
 
+//!  check this code
