@@ -34,3 +34,7 @@ const falsyValues = [' ', 0, null, undefined, NaN, false]
 1.2 Промисы(Promises).
 1.3 Async / await.
 1.4 Библиотеки вроде async.js, blueprint, q, co.
+
+
+   render(): рендеринг компонента
+componentDidMount(): вызывается после рендеринга компонента.Здесь можно выполнять запросы к удаленным ресурсам
