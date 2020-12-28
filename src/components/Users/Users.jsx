@@ -55,3 +55,13 @@ class Users extends React.Component {
 export default Users;
 
 
+
+
+//! render(): рендеринг компонента
+
+//! componentDidMount(): вызывается после рендеринга компонента. Здесь можно выполнять запросы к удаленным ресурсам
+
+
+
+
+//! this change  code 
