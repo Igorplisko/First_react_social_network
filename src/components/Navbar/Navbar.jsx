@@ -33,4 +33,3 @@ const Navbar = () => {
 
 export default Navbar
 
-// ?check and change  this code
