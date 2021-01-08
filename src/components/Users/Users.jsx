@@ -26,11 +26,11 @@ class Users extends React.Component {
                      <img src={u.photos.small != null ? u.photos.small : userPhoto} className={styles.userPhoto} />
                   </div>
                   <div>
-                     {u.followed
+                     {u.followed             
                         ? <button onClick={() => {
                            this.props.unfollow(u.id)
                         }}>Unfollow</button>
-                        : <button onClick={() => {
+                        : <button onClick={() => {    
                            this.props.follow(u.id)
                         }}>Follow</button>}
 
@@ -54,6 +54,8 @@ class Users extends React.Component {
 
 export default Users;
 
+//!Change code 
+//!Change code 
 
 
 
@@ -63,3 +65,4 @@ export default Users;
 
 
 
+//!Change code 
