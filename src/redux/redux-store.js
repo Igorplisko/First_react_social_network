@@ -21,5 +21,5 @@ export default store;
 
 
 //?  combineReducers - эта функция   //объединяеее наши редюсеры
-
+//?  combineReducers - эта функция   //объединяеее наши редюсеры
 
