@@ -5,7 +5,8 @@ import { followAC, setUsersAC, unfollowAC } from "../../redux/users_reducer";
 
 let mapStateToProps = (state) => {
     return {
-        users: state.usersPage.users
+        users: state.usersPage.users,
+        pageSize: state.
     }
 }
 
@@ -28,5 +29,3 @@ export default connect(mapStateToProps, mapDispatchToProps)(Users);
 
 
 
-
-//!wagfgw
