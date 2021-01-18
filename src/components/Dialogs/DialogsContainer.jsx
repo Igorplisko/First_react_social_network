@@ -35,3 +35,7 @@ export default DialogsContainer;
 
 //?The  "connect()" - function connects a React component to a Redux store. It does not modify the component class passed to it; instead, it returns a new, connected component class that wraps the component you passed in.
 //?The "mapStateToProps" and "mapDispatchToProps" deals with your Redux store’s state and dispatch, respectively. 
+
+
+
+//change this code
