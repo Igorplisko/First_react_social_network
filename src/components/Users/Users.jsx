@@ -19,8 +19,10 @@ class Users extends React.Component {
 
    render() {
 
+      let pagesCount = this.props.totalUsersCount / this.props.pageSize;
 
-      return <div>
+
+      return < div >
 
          <div>
             <span> 1</span>
@@ -59,7 +61,7 @@ class Users extends React.Component {
                </span>
             </div>)
          }
-      </div>
+      </ >
    }
 }
 
@@ -71,5 +73,4 @@ export default Users;
 
 //! componentDidMount(): вызывается после рендеринга компонента. Здесь можно выполнять запросы к удаленным ресурсам
 
-
-
+//change this code
