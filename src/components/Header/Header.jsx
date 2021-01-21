@@ -9,5 +9,3 @@ const Header = () => {
 }
 
 export default Header
-
-//change this code
