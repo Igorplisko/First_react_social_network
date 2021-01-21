@@ -20,11 +20,17 @@ class Users extends React.Component {
    render() {
 
       let pagesCount = this.props.totalUsersCount / this.props.pageSize;
+      let pages = [];
+      for (let i = 0; i <= pagesCount; i++) {
+         pages.push(i);
+      }
 
-
-      return < div >
-
+      return <div>
          <div>
+            {pages.map(p => {
+               <span className={styles.selectedPage} >{p}</span>
+            })}
+
             <span> 1</span>
             <span className={styles.selectedPage}> 2</span>
             <span> 3</span>
@@ -61,7 +67,7 @@ class Users extends React.Component {
                </span>
             </div>)
          }
-      </ >
+      </ div >
    }
 }
 
@@ -73,4 +79,4 @@ export default Users;
 
 //! componentDidMount(): вызывается после рендеринга компонента. Здесь можно выполнять запросы к удаленным ресурсам
 
-//change this code
+
