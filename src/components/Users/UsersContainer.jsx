@@ -7,7 +7,7 @@ let mapStateToProps = (state) => {
     return {
         users: state.usersPage.users,
         pageSize: state.usersPage.pageSize,
-        totalUsersCount: state.usersPage.pageSize,
+        totalUsersCount: state.usersPage.totalUsersCount
     }
 }
 
@@ -29,5 +29,3 @@ export default connect(mapStateToProps, mapDispatchToProps)(Users);
 
 
 
-
-//change this code
