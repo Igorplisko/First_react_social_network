@@ -38,5 +38,3 @@ export default DialogsContainer;
 
 
 
-//change this code"
-// change this code 
