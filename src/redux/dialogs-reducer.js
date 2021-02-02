@@ -56,4 +56,3 @@ export const updateNewMessageBodyCreator = (body) =>
 
 export default dialogsReducer
 
-//change this code
