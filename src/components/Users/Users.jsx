@@ -79,5 +79,3 @@ export default Users;
 
 //! componentDidMount(): вызывается после рендеринга компонента. Здесь можно выполнять запросы к удаленным ресурсам
 
-
-// change this code
