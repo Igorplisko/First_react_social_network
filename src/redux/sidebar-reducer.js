@@ -9,4 +9,3 @@ const sidebarReducer = (state = initialState, action) => {
 export default sidebarReducer
 
 //?  combineReducers - эта функция   //объединяеее наши редюсеры
-//?  combineReducers - эта функция   //объединяеее наши редюсеры
