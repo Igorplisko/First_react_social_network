@@ -24,4 +24,3 @@ const ProfileInfo = () => {
 export default ProfileInfo
 
 
-//!check and fix the code!

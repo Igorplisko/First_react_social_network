@@ -1,7 +1,7 @@
 const SEND_MESSAGE = 'SEND_MESSAGE';
 const UPDATE_NEW_MESSAGE_BODY = 'UPDATE-NEW-MESSAGE-BODY';
 
-let initialState = {
+let initialState = {                                        //! let initialState -- Это первоночальный стейт! 
 
    dialogs: [
       { id: 1, name: 'Vladislav' },
